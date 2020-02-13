@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Otaku on Titan - Compras
+		</title>
+		<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>	
+	<header class="imgLogo">
+			<img src="OtakuOnTitan_topo.png">
+		</header>
+	
+		<nav class="menu">
+			<a class="botao" href="otakuontitanhtml5.html" target="_blank">in&iacute;cio</a>
+			<a class="botao" href="destaques.html" target="_blank">destaques</a>
+			<a class="botao" href="catalogo.html" target="_blank">cat&aacute;logo</a>
+			<a class="botao" href="compras.html" target="_blank">compras</a>
+		</nav>
+		
+		<section>
+			<h3 class="comp"><p>Compras</h3></p>
+			<form method="POST">
+				<fieldset class="fsDados"><legend>Dados pessoais</legend>
+					<p></p>
+					<div class="divLinha">
+						<label class="colPri" for="idname">Nome:</label>
+						<input class="inpGrande" id="idname" type="text" name="txtname" placeholder="Nome Completo" required />
+					<p>
+						<label class="colPri" for="idend">Endereço:</label>
+						<input class="inpGrande" id="idend" type="text" name="txtend" placeholder="Rua 12, 123, Aterrado - Volta Redonda/RJ - CEP 12345-678" required /></p>
+					</div>
+					<div class="meiaLinEsq">
+					<p>
+						<label class="colPri" for="idcpf">CPF:</label>
+						<input class="inpMedio" id="idcpf" type="text" name="txtcpf" placeholder="123.456.789-00" required /></p>
+					<p>
+						<label class="colPri" for="idtel">Telefone:</label>
+						<input class="inpTelef" id="idtel" type="tel" name="tel" pattern="([0-9]{2})[0-9]{4}-[0-9]{4}" placeholder="(xx) xxxx-xxxx" required /></p>
+					<p>
+						<label class="colPri" for="idcel">Celular:</label>
+						<input class="inpTelef" id="idcel" type="tel" name="cel" pattern="([0-9]{2})[0-9]{5}-[0-9]{4}" placeholder="(xx) xxxxx-xxxx" required /></p>
+					</div>
+						<div class="meiaLinDir">
+						<fieldset class="fsDir"><legend>Nascimento:</legend>
+								<input class="numDD" id="iddia" type="number" name="data" placeholder="xx" required />
+								/
+								<input class="numDD" id="idmes" type="number" name="data" placeholder="xx" required />
+								/
+								<input class="numQD" id="idano" type="number" name="data" placeholder="xxxx" required />
+						</fieldset>
+						<fieldset class="fsDir"><legend>Gênero:</legend>
+								<input id="idmas" type="radio" name="gender" required />
+								<label for="idmas">Mas</label>
+								<input id="idfem" type="radio" name="gender" required />
+								<label for="idfem">Fem</label>
+								<input id="idoutro" type="radio" name="gender" required />
+								<label for="idoutro">Outro</label>
+						</fieldset>
+					</dir>
+				</fieldset>
+				<fieldset class="fsDados"><legend>Seleção de Produtos e Pagamento:</legend>
+					<div class="divLinha">
+						<p>	
+						Produtos:
+						<select name="prod" id="idprod">
+						<option> Selecionar Produtos </option>
+							<optgroup label="Anime">
+								<option>Death Note - DVD - Completo</option>     
+								<option>Naruto Shippuden T01 Box 01</option>     
+								<option>Naruto Shippuden T01 Box 02</option>
+							</optgroup>
+							<optgroup label="Mangá">
+								<option>Naruto Gold - 55 Vol.</option>     
+								<option>Attack on Titan - Vol 1-4</option>     
+								<option>Attack on Titan - Vol 5-8</option>
+								<option>Naruto Box P01 Vol 1-27</option>
+							</optgroup>
+							<optgroup label="Action Figure">
+								<option>Naruto Shippuden - PVC</option>     
+								<option>Ryuk - Death Note - PVC</option>     
+							</optgroup>
+						<input class="botoes" type="button" onclick="alert('Adicionado ao Carrinho!')" value="Comprar"></p>
+						
+					<fieldset class="fsEsq"><legend>Dados do Cartão:</legend>
+						<fieldset class="fsEsq"><legend>Bandeira:</legend>
+								<input id="idvisa" type="radio" name="cartao" required />
+								<label for="idvisa">Visa</label>
+								<input id="idmaster" type="radio" name="cartao" required />
+								<label for="idmaster">Master</label>
+								<input id="idamex" type="radio" name="cartao" required />
+								<label for="idamex">Amex</label>
+						</fieldset>
+							<p>
+							<label for="val">Validade:</label>
+							<input class="numDD" id="idval" type="number" name="val" placeholder="xx" required />
+							/
+							<input class="numQD" id="idano" type="number" name="val" placeholder="xxxx" required /></p>
+							<p>
+							<label for="cardnum">Número:</label>
+							<input class="inpNCC" id="idcardnum" type="text" size="16" name="cardnum" placeholder="xxxx xxxx xxxx xxxx" required /></p>			
+					</fieldset>
+					
+					<div class="meiaLinDir">
+						<textarea class="elemDir" id="prodsel" rows="10" cols="24" readonly></textarea>
+						<label class="colPri" for="idvalor">Valor: R$</label>
+						<input class="inpNCC" id="idvalor" type="text" name="valor" readonly />
+					</div>
+					
+				</fieldset>
+					<input class="botoes" type="button" onclick="alert('Enviado!')" value="Enviar">
+					<input class="botoes" type="reset" value="Limpar">					
+			</form>
+		</section>
+
+		<footer class="ender">
+			Avenida Akihabara, 123 / Tel: (21) 91234-5678 / <a href="contato@manganime.com.br" target="_blank"> contato@manganime.com.br </a>
+		</footer>
+		
+	</body>
+</html>

@@ -1,0 +1,151 @@
+	/* Questão 2 */
+	
+	header {
+		display: block; padding: 0px; margin: 0px; text-align: center;
+	}
+	body {
+		font-family: 'Open Sans', Sans-serif; font-size: 16px; background-color:#FFFFFF; color:#BB0D0D;
+	}
+	nav {
+		display: block; font-family: 'Muli', Sans-serif; font-size: 18px; padding: 4px; border-bottom: 2px solid #BB0D0D; margin: 2px; text-align: center; width: 60%; 
+	}
+	nav.menu {
+		margin: 1px auto; text-align: center;
+	}
+	a.botao {
+		display:inline-block; margin: 0px 4px; padding: 0px 4px; width: 100px;
+	}
+	nav a:link{color: #FF0000; text-decoration:none;}
+	nav a:hover {color: #FF0000; text-decoration: underline;}
+	nav a:visited {color: #EE0000; text-decoration: none;}
+	section {
+		display: block; margin: auto; 
+	}	
+	footer {
+		clear: both; 
+	}
+	.ender {
+		font-size: 14px; text-align: center; border-top: 2px solid #BB0D0D; padding: 10px; width: 60%; line-height: 60%; margin:auto;
+	}
+	.imgLogo {
+		margin-bottom: 4px; padding-bottom: 4px; text-align:center;
+	}
+	.apres {
+		font-size: 18px; text-align: center;
+	}
+	a:link {color:#DD0000; text-decoration: none}
+	a:visited{color:#CC0000; text-decoration: none}
+	a:hover {color: #DD0000; text-decoration: underline;}
+	h3.destaq {
+	margin: auto 425px;}
+	h3.catal {
+	margin: auto 300px;}
+	h3.comp {
+	margin: auto 410px;}
+	
+	/* Questão 3 */
+	
+	.lisDestaq {
+		color: #2255AA; list-style-type: katakana; 
+	}
+	.itemDestaq {
+		padding: 10px; width: 430px; height: 120px; margin: auto;
+	}
+	.itemDesProd {
+		list-style-type: square;
+	}
+	.imgDestaq {
+		float: right; 
+	}
+	.precoVelho {
+		text-decoration-line: line-through;
+	}
+	.preco {
+		color: #FF0000; font-weight: bold;
+	}
+	
+	/* Questão 4 */
+	
+	.tabInfo {
+		border-collapse:collapse; background-color: #FFFFCC; color: #2255AA; margin-top: 6px; font-family: 'Arial', Sans-serif; text-align:center; 
+	}
+	.tabInfo .linTH {
+		color:#FFFFFF; background-color:#0077BB; vertical-align: middle; text-align: center;
+	}
+	.tabInfo .colTH {
+		color:#005599; background-color:#FFCC77; text-align:left; font-weight: bold;
+	}
+	.tabInfo .preco {
+			color:#CC0000; font-weight: bold; vertical-align: middle;
+	}	
+	.tabInfo td, .tabInfo th { 
+		border: 2px solid #000000; padding: 6px 12px 6px 12px;
+	}
+	
+	/* Questão 5 */
+	
+	form { 
+		margin: 0 auto; width: 40%;
+	}
+	
+	fieldset {
+		color:#2255AA; background-color:#FFFFCC; margin: 20px 10px 0px 10px; 
+	}
+	.fsDados {
+		width:510px;
+	}
+	.fsEsq {
+		float: left; margin:0px 0px 6px 0px;
+	}
+	.fsDir {
+		float: right; margin:0px 0px 6px 0px; width:220px;
+	}
+	.meiaLinDir {
+		width:220px; float: right; margin-bottom:6px;
+	}
+	.meiaLinEsq {
+		width:220px; float: left; margin-top:6px; margin-bottom: 18px;
+	}
+	.divLinha {
+		width:490px; margin-bottom: 18px;
+	}
+	.colPri {
+		float: left; display:block; width: 84px;
+	}
+	.elemDir {
+		float: right; display:block;
+	}
+	.botoes {
+		text-align: left; margin:12px 10px 12px 10px;
+	}
+	.inpGrande {
+		width:390px;
+	}
+	.inpMedio {
+		width:120px;
+	}
+	.inpTelef {
+		width:90px;
+	}
+	.numDD {
+		width:40px;
+	}
+	.numQD {
+		width:60px;
+	}
+	.inpNCC {
+		width:130px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
