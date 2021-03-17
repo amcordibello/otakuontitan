@@ -1,3 +1,5 @@
+	/* Folha de estilo da AD1 */
+	
 	/* Questão 2 */
 	
 	header {
@@ -22,7 +24,7 @@
 		display: block; margin: auto; 
 	}	
 	footer {
-		clear: both; 
+		clear: both; margin: auto;
 	}
 	.ender {
 		font-size: 14px; text-align: center; border-top: 2px solid #BB0D0D; padding: 10px; width: 60%; line-height: 60%; margin:auto;
@@ -36,8 +38,9 @@
 	a:link {color:#DD0000; text-decoration: none}
 	a:visited{color:#CC0000; text-decoration: none}
 	a:hover {color: #DD0000; text-decoration: underline;}
+	
 	h3.destaq {
-	margin: auto 425px;}
+	margin: auto 425px; padding: 15px}
 	h3.catal {
 	margin: auto 300px;}
 	h3.comp {
@@ -136,16 +139,19 @@
 	.inpNCC {
 		width:130px;
 	}
+	.inpvalor {
+		width:130px; height:20px
+	}
+	textarea {
+		resize: none;
+	}
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+/* Continuação para a AD2 */
+
+	.imgVazio {
+		border:3px; border-style:solid;border-color:#226699; padding:12px; background-color:#FFFFFF; width:180px; height:180px;
+	}
+
 	
 	
