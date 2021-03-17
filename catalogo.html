@@ -14,76 +14,61 @@
 		</header>
 	
 		<nav class="menu">
-			<a class="botao" href="index.html" target="_blank">in&iacute;cio</a>
+			<a class="botao" href="otakuontitanhtml5.html" target="_blank">início</a>
 			<a class="botao" href="destaques.html" target="_blank">destaques</a>
-			<a class="botao" href="catalogo.html" target="_blank">cat&aacute;logo</a>
+			<a class="botao" href="catalogo.html" target="_blank">catálogo</a>
 			<a class="botao" href="compras.html" target="_blank">compras</a>
 		</nav>
 		
 		<section>
+		
+		<script language="javascript">
+			var ship_b1 = ["NarShipB1T01A300.jpg", "Preço: R$60,00"]
+			var ship_b2 = ["NarShipB2T01A300.jpg", "Preço: R$60,00"]
+			var titan_14 = ["AOT1-4A300.jpg", "Preço: R$130,00"]
+			var titan_58 = ["AOT5-8A300.jpg", "Preço: R$130,00"]
+			var naru_b1 = ["NarutoBoxPart1A300.jpg", "Preço: R$600,00"]
+			var dn_pvc = ["RyukFigA300.jpg", "Preço: R$250,00"]
+		</script>
+		
 			<h3 class="catal"><p>Catálogo</h3></p>
 			<table align="center" class="tabInfo">
-				<tr><th colspan="5" class="linTH">Itens mais procurados</th></tr>
+				<tr><th colspan="4" class="linTH">Itens mais procurados</th></tr>
 				<tr>
 					<th class="linTH">Categoria</td>
 					<th class="linTH">Produto</td>
 					<th class="linTH">Descrição</td>
-					<th class="linTH">Foto</td>
-					<th class="linTH">Preço</td>
+					<th class="linTH">Foto/Preço</td>
 				</tr>
 				<tr>
-					<td class="colTH" rowspan="3">Anime</td>
-					<td rowspan="2">Naruto Shippuden</td>
-					<td>Temporada 1 Box 1 - DVD</td>
-					<td rowspan="2"><img src="NarShipB1T01A80.jpg"></td>
-					<td class="preco">R$ 60,00</td>
+					<th class="colTH" rowspan="3">Anime</th>
+						<td rowspan="2">Naruto Shippuden</td>
+						<td><a onclick="document.getElementById('ImageChange').src=ship_b1[0]; document.getElementById('PriceChange').innerHTML=ship_b1[1]">Temporada 1 Box 1 - DVD</a></td>
+						<td rowspan="9"><img id="ImageChange" class="imgVazio" src="vazio.jpg"> 
+						<p id="PriceChange"></p>
+						</td>
 					<tr>
-						<td>Temporada 1 Box 2 - DVD</td>
-						<td class="preco">R$ 60,00</td>
+						<td><a onclick="document.getElementById('ImageChange').src=ship_b2[0];document.getElementById('PriceChange').innerHTML=ship_b2[1]">Temporada 1 Box 2 - DVD</a></td>
 					</tr>
+				<tr></tr>
 				<tr>
-					<td>Death Note</td>
-					<td>Série Completa - DVD</td>
-					<td><img src="DeathNoteA110.jpg"></td>
-					<td class="preco">R$ 85,00</td>
-				</tr>
-				<tr>
-					<td class="colTH" rowspan="5">Mangá</td>
-					<td rowspan="2">Attack on Titan</td>
-					<td>Volumes 1-4</td>
-					<td rowspan="2"><img src="AOT1-4A80.jpg"></td>
-					<td class="preco">R$ 130,00</td>
+					<th class="colTH" rowspan="5">Mangá</th>
+						<td rowspan="2">Attack on Titan</td>
+						<td><a onclick="document.getElementById('ImageChange').src=titan_14[0];document.getElementById('PriceChange').innerHTML=titan_14[1]">Volumes 1-4</a></td>
 					<tr>
-						<td>Volumes 5-8</td>
-						<td class="preco">R$ 130,00</td>
+						<td><a onclick="document.getElementById('ImageChange').src=titan_58[0];document.getElementById('PriceChange').innerHTML=titan_58[1]">Volumes 5-8</a></td>
 					</tr>
 					<tr>
-						<td rowspan="2">Naruto</td>
-						<td rowspan="2">Box Parte 1 - Vol 1-27 - Inglês</td>
-						<td rowspan="2"><img src="NarutoBoxPart1A80.jpg"></td>
-						<td class="preco" rowspan="2">R$ 600,00</td>
+						<td>Naruto</td>
+						<td><a onclick="document.getElementById('ImageChange').src=naru_b1[0];document.getElementById('PriceChange').innerHTML=naru_b1[1]">Box Parte 1 - Vol 1-27 - Inglês</a></td>
 					</tr>
 					<tr></tr>
-					<tr>
-						<td rowspan="2">Naruto Gold</td>
-						<td rowspan="2">Box - Vol 1-55 - Português</td>
-						<td rowspan="2"><img src="NarutoGoldA110.jpg"></td>
-						<td class="preco" rowspan="2">R$ 1000,00</td>
-					</tr>
 				</tr>
 				<tr></tr>
 				<tr>
-					<td class="colTH" rowspan="2">Colecionáveis</td>
-					<td>Death Note</td>
-					<td>Ryouk em PVC</td>
-					<td><img src="RyukFigA80.jpg"></td>
-					<td class="preco">R$ 250,00</td>
-				</tr>
-				<tr>
-					<td>Naruto Shippuden</td>
-					<td>Naruto em PVC</td>
-					<td><img src="NarutoFigA110.jpg"></td>
-					<td class="preco">R$ 210,00</td>
+					<th class="colTH" rowspan="2">Colecionáveis</th>
+						<td>Death Note</td>
+						<td><a onclick="document.getElementById('ImageChange').src=dn_pvc[0];document.getElementById('PriceChange').innerHTML=dn_pvc[1]">Ryouk em PVC</a></td>
 				</tr>
 			</table>
 		<p></p>
