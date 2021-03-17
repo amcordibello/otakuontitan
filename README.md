@@ -1,2 +1,3 @@
 # otakuontitan
-AD1_WEB_CEDERJ
+CEDERJ 2020.1
+Projeto da disciplina Construção de página WEB
